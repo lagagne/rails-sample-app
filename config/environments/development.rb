@@ -1,3 +1,7 @@
+#Rails 6.0.2.2 makes too many deprecated funtion calls to Ruby 2.7.1
+#Remove if necessary
+$VERBOSE=nil
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
